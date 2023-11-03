@@ -1,3 +1,5 @@
+import './styles.css'
+
 export default function App() {
     return (
         <>
@@ -12,10 +14,24 @@ export default function App() {
     <ul className="list">
         <li>
             <label>
-                <input type="checkbox" id="" />
+                <input type="checkbox"/>
                 Item1
             </label>
-            <button className="btn btn-danger"></button> 
+            <button className="btn btn-danger">Delete</button> 
+        </li>
+        <li>
+            <label>
+                <input type="checkbox"/>
+                Item1
+            </label>
+            <button className="btn btn-danger">Delete</button> 
+        </li>
+        <li>
+            <label>
+                <input type="checkbox"/>
+                Item1
+            </label>
+            <button className="btn btn-danger">Delete</button> 
         </li>
     </ul>
         </>
